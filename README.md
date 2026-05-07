@@ -1,2 +1,2 @@
 # DATA-ANALYTICS-OVERVIEW 
-This Project provides an overview of data ananlytics concepts, processes and tools cused to analyze and interpret data for decision-making
+This project provides an overview of Data Analytics concepts, processes, and tools used to analyze and interpret data for decision-making.
