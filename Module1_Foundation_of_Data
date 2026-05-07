@@ -1,0 +1,122 @@
+# Foundation of Data
+
+## What is Data?
+Data refers to raw facts, figures, or information collected for analysis and decision-making.
+
+---
+
+## Data Surrounds Us
+Data is everywhere around us in daily life.
+
+Examples:
+- Social media likes and comments
+- Online shopping details
+- Email
+- Business analysis
+- Mobile app usage
+
+---
+
+## Types of Data
+
+### Based on Nature
+
+#### 1. Qualitative Data
+Non-numerical data that describes qualities or categories.
+
+Examples:
+- Gender
+- Color
+- City names
+
+##### Types of Qualitative Data
+
+###### a) Nominal Data
+Data without any order or ranking.
+
+Examples:
+- Gender
+- Country
+- Religion
+
+###### b) Ordinal Data
+Data with order or ranking.
+
+Examples:
+- Rank
+- Satisfaction Level
+- Education Level
+
+---
+
+#### 2. Quantitative Data
+Numerical data that can be measured or counted.
+
+Examples:
+- Height
+- Weight
+- Salary
+
+##### Types of Quantitative Data
+
+###### a) Discrete Data 
+Countable numerical data.
+
+Examples:
+- Number of students
+- Number of cars
+- Number of books
+
+###### b) Continuous Data
+Measurable numerical data.
+
+Examples:
+- Height
+- Weight
+- Temperature
+
+---
+
+### Based on Source
+
+#### 1. Primary Data
+Data collected directly from original sources.
+
+Examples:
+- Surveys
+- Interviews
+- Questionnaires
+
+#### 2. Secondary Data
+Data collected from existing sources.
+
+Examples:
+- Websites
+- Research papers
+- Government reports
+
+---
+
+### Based on Structure
+
+#### 1. Structured Data
+Well-organized data stored in rows and columns.
+
+Examples:
+- Excel sheets
+- Databases
+
+#### 2. Unstructured Data
+Data without a fixed format.
+
+Examples:
+- Images
+- Videos
+- Social media posts
+
+#### 3. Semi-Structured Data
+Data with partial organization.
+
+Examples:
+- JSON files
+- XML files
