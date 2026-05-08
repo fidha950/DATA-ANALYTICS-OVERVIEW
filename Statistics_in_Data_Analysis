@@ -1,0 +1,45 @@
+# Statistics 
+
+## Types of Statistics
+
+### 1. Descriptive Statistics
+Descriptive statistics is used to summarize and describe data.
+
+### 2. Inferential Statistics
+Inferential statistics is used to make predictions or conclusions about a population using sample data.
+
+Examples:
+- Hypothesis Testing
+- Regression
+- Probability
+
+---
+
+#### Types of Descriptive Statistics 
+- Measures of Cental Tendency
+Central tendency is used to identify the central or average value in a dataset. It helps to understand the overall behavior of data.
+
+  - Mean
+  - Median
+  - Mode
+
+-  Measures of Dispersion
+Dispersion is used to measure how spread out the data values are from the central value. It helps to understand the variation in data.
+
+  - Range
+  - Variance
+  - Standard Deviation
+
+---
+
+##### Measures of Cental Tendency
+-Mean
+Mean is the average value of a dataset.
+Formula:
+Mean = Sum of all values / Number of values
+
+- Median
+Median is the middle value in ordered data.
+
+- Mode
+Mode is the most repeated value in a dataset.
