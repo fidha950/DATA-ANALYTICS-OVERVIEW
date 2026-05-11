@@ -36,10 +36,31 @@ Dispersion is used to measure how spread out the data values are from the centra
 -Mean
 Mean is the average value of a dataset.
 Formula:
-Mean = Sum of all values / Number of values
+ Mean = Sum of all values / Number of values
 
 - Median
 Median is the middle value in ordered data.
 
 - Mode
 Mode is the most repeated value in a dataset.
+A dataset may have:
+   • One mode → Unimodal
+   • Two modes → Bimodal
+   • More than two → Multimodal
+
+---
+
+##### MEASURES OF DISPERSION
+- Variance
+Measures the average squared deviation from the mean. 
+Formula:
+ Variance (σ²) = Σ(x − μ)² / N
+
+ • x = each value
+ • μ = mean
+ • N = total number of values
+
+- Standard Deviation
+square root of variance. It is widely used in data analytics, finance, quality control, and risk analysis.
+Formula:
+ Standard Deviation (σ) = √[ Σ(x − μ)² / N ]
