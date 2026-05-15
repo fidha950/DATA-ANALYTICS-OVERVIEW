@@ -1,0 +1,75 @@
+# Statistics Practice 
+
+## Mean 
+
+### Formula
+Mean = Sum of values / Number of values 
+
+#### Questions
+
+- Suppose the marks of 5 students are: 
+60, 70, 80, 90, 100 
+Mean = (60 + 70 + 80 + 90 + 100) / 5 
+Mean = 400 / 5
+Mean = 80 
+
+- A company wants to know the average salary of employees. Employee salaries: 
+₹30,000, ₹35,000, ₹40,000, ₹45,000, ₹50,000 
+Mean = (30,000 + 35,000 + 40,000 + 45,000 + 50,000) / 5
+Mean = 200,000 / 5
+Mean = 40,000
+
+---
+
+## Median 
+
+### Formula
+Median = Middle value after arranging ascending or descending order.
+
+#### Questions
+- Dataset: 
+10, 15, 20, 25, 30 
+The middle value is 20 
+Median = 20 
+
+- 10, 15, 20, 25 
+Median = (15 + 20) / 2 
+Median = 17.5 
+
+- A city wants to know the typical house price. 
+House prices: 
+₹10L, ₹12L, ₹15L, ₹20L, ₹1 Crore 
+Median = 15L
+
+---
+
+## Mode
+
+### Formula
+Mode = Most frequently repeated value
+
+#### Questions
+
+- Dataset: 
+2, 4, 4, 5, 6, 7 
+The number 4 appears most often. 
+Mode = 4 
+
+- A clothing store wants to know the most sold shirt size. 
+Sales data: 
+S, M, M, M, L, L, XL 
+Mode = M 
+
+##### Student marks: 55, 60, 65, 65, 70, 90 
+- Mean = (55 + 60 + 65 + 65 + 70 + 90) / 6
+Mean =  405 / 6
+Mean = 67.5
+
+- Median = 65 + 65 / 2
+Median = 130 / 2
+Median = 65
+
+- Mode = 65
+
+---
+
