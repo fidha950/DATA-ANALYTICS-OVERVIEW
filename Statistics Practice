@@ -1,4 +1,5 @@
-# Statistics Practice 
+# Statistics Practice
+# MEASURES OF CENTRAL TENDENCY 
 
 ## Mean 
 
@@ -21,12 +22,25 @@ Mean = 40,000
 
 ---
 
+Product_ID	Product_Name	Category	Price	Stock	City
+1	Laptop	Electronics	55000	10	Delhi
+2	Mobile	Electronics	30000	25	Mumbai
+3	Tablet	Electronics	20000	15	Chennai
+4	Headphones	Accessories	2000	50	Kochi
+5	Monitor	Electronics	12000	20	Delhi
+6	Keyboard	Accessories	1500	40	Chennai
+7	Mouse	Accessories	800	60	Mumbai
+8	Printer	Electronics	10000	12	Delhi
+9	Camera	Electronics	45000	8	Kochi
+10	Smartwatch	Electronics	7000	30	Bangalore
+
 ## Median 
 
 ### Formula
 Median = Middle value after arranging ascending or descending order.
 
 #### Questions
+
 - Dataset: 
 10, 15, 20, 25, 30 
 The middle value is 20 
@@ -73,3 +87,105 @@ Median = 65
 
 ---
 
+# MEASURES OF DISPERSION  
+
+## Variance
+
+### Formula
+-  Variance σ² = Σ(x − μ)² / N
+
+#### Questions
+
+- Suppose the marks of students are: 
+10, 12, 14 
+Step 1 – Find Mean 
+Mean = (10 + 12 + 14) / 3 Mean = 12 
+ 
+Step 2 – Calculate deviation from mean 
+| Value |	Deviation (x − mean) | 	Square |
+|-------|----------------------|---------|
+| 10 | -2 |	4 |
+| 12 |	0 |	0 |
+| 14 |	2 |	4 |
+ 
+Step 3 – Variance 
+Variance = (4 + 0 + 4) / 3 
+Variance = 2.67 
+
+---
+
+## Standard Deviation 
+
+### Formula
+S.D = σ = √[ Σ(x − μ)² / N ]
+Or 
+S.D = σ = √Variance
+
+#### Questions 
+
+- Using the previous dataset: 
+10, 12, 14 
+Variance = 2.67 
+Standard Deviation 
+𝑆𝐷 = √2.67
+𝑆𝐷 = ≈ 1.63 
+
+##### Example: Stock Market 
+Investors analyze stock price volatility. 
+Stock A price change: 2%, 3%, 2.5%, 3% 
+Stock B price change: -5%, +10%, -3%, +12% 
+
+- Stock A
+Mean = (2 + 3 + 2.5 + 3) / 4
+Mean = 2.6
+
+| Value |	Deviation (x − mean) | 	Square |
+|-------|----------------------|---------|
+| 2 | -0.6 | 0.36 |
+| 3 | 0.4 | 0.16 |
+| 2.5 | -0.1 | 0.01 |
+| 3 | 0.4 | o.16 |
+
+Variance = (0.36 + 0.16 + 0.01 + 0.16) / 4 
+Variance = 0.69 / 4
+Variance = 0.1725
+
+S.D = √0.1725
+S.D = 0.4153
+
+- Stock B
+Mean = (-5 + 10 + -3 + 12) / 4
+Mean = 3.5
+
+| Value |	Deviation (x − mean) | 	Square |
+|-------|----------------------|---------|
+| -5 | -8.5 | 72.25 |
+| 10 | 6.5 | 42.25 |
+| -3 | -6.5 | 42.25 |
+| 12 | 8.5 | 72.25 |
+
+Variance = 229 / 4
+Variance = 57.25
+
+S.D = √57.25
+S.D = 7.566
+
+•	Stock A → Low standard deviation → Stable stock 
+•	Stock B → High standard deviation → Risky stock So investors 
+
+---
+
+# Statistics Excel Practice
+## dataset 
+
+| Product_ID |	Product_Name |	Category |	Price |	Stock |	City |
+| 1 | Laptop |	Electronics |	55000 |	10	| Delhi |
+| 2 |	Mobile |	Electronics |	30000	| 25	| Mumbai |
+| 3 |	Tablet |	Electronics | 20000	| 15	| Chennai |
+| 4 | Headphones |	Accessories |	2000	| 50	| Kochi |
+| 5	| Monitor |	Electronics |	12000	| 20	| Delhi |
+| 6 |	Keyboard |	Accessories |	1500	| 40	| Chennai |
+| 7 |	Mouse |	Accessories |	800	| 60	| Mumbai |
+| 8 |	Printer |	Electronics |	10000	| 12	| Delhi |
+| 9	| Camera |	Electronics |	45000	| 8	| Kochi |
+| 10 |	Smartwatch |	Electronics |	7000	| 30	| Bangalore |
