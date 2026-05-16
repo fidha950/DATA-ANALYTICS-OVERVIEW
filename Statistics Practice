@@ -1,12 +1,12 @@
 # Statistics Practice
-# MEASURES OF CENTRAL TENDENCY 
+## MEASURES OF CENTRAL TENDENCY 
 
-## Mean 
+### Mean 
 
-### Formula
+#### Formula
 Mean = Sum of values / Number of values 
 
-#### Questions
+##### Questions
 
 - Suppose the marks of 5 students are: 
 60, 70, 80, 90, 100 
@@ -22,24 +22,12 @@ Mean = 40,000
 
 ---
 
-Product_ID	Product_Name	Category	Price	Stock	City
-1	Laptop	Electronics	55000	10	Delhi
-2	Mobile	Electronics	30000	25	Mumbai
-3	Tablet	Electronics	20000	15	Chennai
-4	Headphones	Accessories	2000	50	Kochi
-5	Monitor	Electronics	12000	20	Delhi
-6	Keyboard	Accessories	1500	40	Chennai
-7	Mouse	Accessories	800	60	Mumbai
-8	Printer	Electronics	10000	12	Delhi
-9	Camera	Electronics	45000	8	Kochi
-10	Smartwatch	Electronics	7000	30	Bangalore
+### Median 
 
-## Median 
-
-### Formula
+#### Formula
 Median = Middle value after arranging ascending or descending order.
 
-#### Questions
+##### Questions
 
 - Dataset: 
 10, 15, 20, 25, 30 
@@ -57,12 +45,12 @@ Median = 15L
 
 ---
 
-## Mode
+### Mode
 
-### Formula
+#### Formula
 Mode = Most frequently repeated value
 
-#### Questions
+##### Questions
 
 - Dataset: 
 2, 4, 4, 5, 6, 7 
@@ -74,7 +62,7 @@ Sales data:
 S, M, M, M, L, L, XL 
 Mode = M 
 
-##### Student marks: 55, 60, 65, 65, 70, 90 
+###### Student marks: 55, 60, 65, 65, 70, 90 
 - Mean = (55 + 60 + 65 + 65 + 70 + 90) / 6
 Mean =  405 / 6
 Mean = 67.5
@@ -87,14 +75,14 @@ Median = 65
 
 ---
 
-# MEASURES OF DISPERSION  
+## MEASURES OF DISPERSION  
 
-## Variance
+### Variance
 
-### Formula
+#### Formula
 -  Variance σ² = Σ(x − μ)² / N
 
-#### Questions
+##### Questions
 
 - Suppose the marks of students are: 
 10, 12, 14 
@@ -114,14 +102,14 @@ Variance = 2.67
 
 ---
 
-## Standard Deviation 
+### Standard Deviation 
 
-### Formula
+#### Formula
 S.D = σ = √[ Σ(x − μ)² / N ]
 Or 
 S.D = σ = √Variance
 
-#### Questions 
+##### Questions 
 
 - Using the previous dataset: 
 10, 12, 14 
@@ -130,7 +118,7 @@ Standard Deviation
 𝑆𝐷 = √2.67
 𝑆𝐷 = ≈ 1.63 
 
-##### Example: Stock Market 
+###### Example: Stock Market 
 Investors analyze stock price volatility. 
 Stock A price change: 2%, 3%, 2.5%, 3% 
 Stock B price change: -5%, +10%, -3%, +12% 
@@ -176,7 +164,8 @@ S.D = 7.566
 ---
 
 # Statistics Excel Practice
-## dataset 
+
+## Find the Mean, Median, Mode, Variance, & S.D
 
 | Product_ID |	Product_Name |	Category |	Price |	Stock |	City |
 | 1 | Laptop |	Electronics |	55000 |	10	| Delhi |
@@ -189,3 +178,39 @@ S.D = 7.566
 | 8 |	Printer |	Electronics |	10000	| 12	| Delhi |
 | 9	| Camera |	Electronics |	45000	| 8	| Kochi |
 | 10 |	Smartwatch |	Electronics |	7000	| 30	| Bangalore |
+
+### Category 
+Mode = Most frequency
+Mode = Electronics
+
+### Price
+
+- Mean
+Mean = =AVERAGE(D2:D11)
+Mean = 18,330
+
+- Median
+Median = =MEDIAN(D2:D11)
+Median = 11,000
+
+### Stock
+
+- Mean 
+Mean = =AVERAGE(E1:E11)
+Mean = 27
+
+- Median
+Median = =MEDIAN(E1:E11)
+Median = 22.5
+
+- Variance 
+Variance = =VARP(E1:E11)
+Variance = 286.8
+
+- S.D
+S.D = =STDEV.P(E1:E11)
+S.D = 16.94
+### City
+
+Mode = Most frequency
+Mode = Delhi
